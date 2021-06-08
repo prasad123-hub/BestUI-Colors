@@ -1,6 +1,12 @@
 import React from "react";
 import CopyToClipboard from "react-copy-to-clipboard";
 import styled from "styled-components";
+import { message } from "antd";
+import "antd/dist/antd.css";
+
+const success = () => {
+  message.success("Copied to Clipboard");
+};
 
 const BlueSection = () => {
   return (
@@ -10,73 +16,73 @@ const BlueSection = () => {
       </NavBarContent>
       <ColorRange>
         <CopyToClipboard text="#1B98F5">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#1B98F5" }}></div>
             <h3>#1B98F5</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#23C4ED">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#23C4ED" }}></div>
             <h3>#23C4ED</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#383CC1">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#383CC1" }}></div>
             <h3>#383CC1</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#12B0E8">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#12B0E8" }}></div>
             <h3>#12B0E8</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#51E1ED">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#51E1ED" }}></div>
             <h3>#51E1ED</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#207398">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#207398" }}></div>
             <h3>#207398</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#46B2E0">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#46B2E0" }}></div>
             <h3>#46B2E0</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#3944F7">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#3944F7" }}></div>
             <h3>#3944F7</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#2827CC">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#2827CC" }}></div>
             <h3>#2827CC</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#120E43">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#120E43" }}></div>
             <h3>#120E43</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#5DA3FA">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#5DA3FA" }}></div>
             <h3>#5DA3FA</h3>
           </Wrap>
         </CopyToClipboard>
         <CopyToClipboard text="#03203C">
-          <Wrap>
+          <Wrap onClick={success}>
             <div style={{ backgroundColor: "#03203C" }}></div>
             <h3>#03203C</h3>
           </Wrap>
