@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "colorName": "Bittersweet",
+    "colorCode": "#FF6263"
+  },
+  {
+    "id": 2,
+    "colorName": "Punch",
+    "colorCode": "#DE4839"
+  },
+  {
+    "id": 3,
+    "colorName": "Tall Poppy",
+    "colorCode": "#BF3325"
+  },
+  {
+    "id": 4,
+    "colorName": "Alizarin Crimson",
+    "colorCode": "#E21717"
+  },
+  {
+    "id": 5,
+    "colorName": "Rust",
+    "colorCode": "#BF3312"
+  },
+  {
+    "id": 6,
+    "colorName": "Punch",
+    "colorCode": "#D82E2F"
+  }
+]
